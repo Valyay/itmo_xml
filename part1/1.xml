@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!DOCTYPE table [
+    <!ELEMENT table ANY>
+    <!ELEMENT student ANY>
+    <!ELEMENT mark ANY>
+    <!ATTLIST mark discipline CDATA #IMPLIED>
+    <!ATTLIST student name CDATA #IMPLIED>
+]>
+<table>
+    <student name="Ivanov">
+        <mark discipline="Media">3</mark>
+        <mark discipline="Web">3</mark>
+        <mark discipline="Graphics">5</mark>
+    </student>
+    <student name="Petrova">
+        <mark discipline="Media">3</mark>
+        <mark discipline="Web">4</mark>
+        <mark discipline="Graphics">5</mark>
+        <mark discipline="Logic">5</mark>
+    </student>
+    <student name="Sidorenko">
+        <mark discipline="Media">3</mark>
+        <mark discipline="Web">4</mark>
+        <mark discipline="Graphics">5</mark>
+        <mark discipline="Logic">4</mark>
+    </student>
+</table>
